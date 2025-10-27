@@ -1,0 +1,25 @@
+# --- Core Backend ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.1
+
+# --- Google Gemini API ---
+google-generativeai==0.5.4
+python-dotenv==1.0.1
+
+# --- Web Scraping (StackOverflow Data) ---
+requests==2.32.3
+beautifulsoup4==4.12.3
+playwright==1.46.0
+
+# --- Ranking and Embeddings ---
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+
+# --- Code Verification / Sandbox ---
+docker==7.1.0
+psutil==6.1.0
+
+# --- Utilities and Logging ---
+pydantic==2.8.2
+loguru==0.7.2
+tqdm==4.66.4
